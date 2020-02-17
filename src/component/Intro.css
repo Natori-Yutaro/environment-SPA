@@ -1,0 +1,261 @@
+.intro{
+    background-color: black;
+    height: 610px;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.midasi{
+    color:white;
+    position: relative;
+    font-family: monospace;
+    letter-spacing: 10px;
+    top: 10%;
+    left: 5%;
+    margin: 0;
+    width: 770px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.poverty{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.sabakuka{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.ondanka{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.sanseiu{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+.show{
+    opacity: 1.0;
+    transform: none;
+}
+
+.poverty-img{
+    width:  200px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.poverty-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.sabakuka-img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sabakuka-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.ondanka-img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s;
+}
+
+.ondanka-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.sanseiu-img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+
+.sanseiu-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.teigi{
+    margin-top: 50px;
+    position: relative;
+    font-size: 30px;
+}
+
+span{
+    color: red;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 479px){
+    .intro{
+    background-color: black;
+    height: 1600px;
+    position: relative;
+    z-index: 10;
+    width: 320px;
+}
+
+
+
+.midasi{
+    color:white;
+    position: relative;
+    font-family: monospace;
+    top: 3%;
+    left: 5%;
+    width: 320px;;
+    margin: 0;
+    font-size: 15px;
+}
+
+.content{
+  display: block;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 45px;
+}
+
+.poverty{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.sabakuka{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.ondanka{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.sanseiu{
+    width: 230px;
+    position: relative;
+    border: 1px solid white;
+}
+.show{
+    opacity: 1.0;
+    transform: none;
+}
+
+.poverty-img{
+    width:  200px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.poverty-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.sabakuka-img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sabakuka-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.ondanka-img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s;
+}
+
+.ondanka-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.sanseiu-img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+
+.sanseiu-img:hover{
+    transform: scale(1.1,1.1);
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.teigi{
+    margin-top: 50px;
+    position: relative;
+    font-size: 30px;
+}
+
+span{
+    color: red;
+}
+}
+

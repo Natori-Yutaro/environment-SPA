@@ -1,0 +1,194 @@
+.header{
+    background-image: url(./151105_acidrainrecovery1-w1280.jpg);
+    height: 610px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+}
+
+
+
+#font{
+    font-size: 50px;
+    margin: 20px;
+    top:65%;
+    left: 45%;
+    position: absolute;
+    color:white ;
+    opacity: 0;
+}
+
+.header::before{
+    /* 透過した黒を上から重ねるイメージ */
+  background-color: rgba(0,0,0,0.4);
+  /* 自由に位置指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+
+}
+
+.main{
+    text-align: center;
+    margin: 0;
+    color: white;
+    position: absolute;
+    letter-spacing: 10px;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+     -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+     font-family: monospace; 
+     width: 550px;
+    border-right: .08em solid;
+    overflow: hidden;
+    white-space: nowrap;
+   
+}
+
+.main.active{
+    animation: typing 4s steps(14, end), caret .4s step-end infinite;
+
+}
+
+.submain.fadein{
+    animation: fadeIn 3s ease 0s 1;
+    -webkit-animation: fadeIn 2s ease 0s 1 ;
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+.submain{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 22px;
+    font-family: monospace; 
+    opacity: 0;
+}
+
+#font.fadein{
+     animation: fadeIn 3s ease 0s 1;
+    -webkit-animation: fadeIn 2s ease 0s 1 ;
+    opacity: 1;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+.header{
+    background-image: url(./151105_acidrainrecovery1-w1280.jpg);
+    height: 610px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+}
+
+
+
+#font{
+    font-size: 30px;
+    margin: 20px;
+    top:65%;
+    left: 35%;
+    position: absolute;
+    color:white ;
+    opacity: 0;
+}
+
+.header::before{
+    /* 透過した黒を上から重ねるイメージ */
+  background-color: rgba(0,0,0,0.4);
+  /* 自由に位置指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+
+}
+
+.main{
+    text-align: center;
+    margin: 0;
+    color: white;
+    position: absolute;
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+     -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+     font-family: monospace; 
+     width: 550px;
+    border-right: .08em solid;
+    overflow: hidden;
+    white-space: nowrap;
+   
+}
+
+.main.active{
+    animation: typing 4s steps(14, end), caret .4s step-end infinite;
+
+}
+
+.submain.fadein{
+    animation: fadeIn 3s ease 0s 1;
+    -webkit-animation: fadeIn 2s ease 0s 1 ;
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+.submain{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 10px;
+    font-family: monospace; 
+    opacity: 0;
+}
+
+#font.fadein{
+     animation: fadeIn 3s ease 0s 1;
+    -webkit-animation: fadeIn 2s ease 0s 1 ;
+    opacity: 1;
+}
+}
