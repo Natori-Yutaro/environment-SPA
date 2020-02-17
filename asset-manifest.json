@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0bd37f1.chunk.css",
+    "main.js": "/static/js/main.4c14bafc.chunk.js",
+    "main.js.map": "/static/js/main.4c14bafc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2e220e16.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2e220e16.js.map",
+    "static/css/2.680ee171.chunk.css": "/static/css/2.680ee171.chunk.css",
+    "static/js/2.7cf97c07.chunk.js": "/static/js/2.7cf97c07.chunk.js",
+    "static/js/2.7cf97c07.chunk.js.map": "/static/js/2.7cf97c07.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b4aae6714a42a71bb26584ac8fcaf905.js": "/precache-manifest.b4aae6714a42a71bb26584ac8fcaf905.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.680ee171.chunk.css.map": "/static/css/2.680ee171.chunk.css.map",
+    "static/css/main.e0bd37f1.chunk.css.map": "/static/css/main.e0bd37f1.chunk.css.map",
+    "static/js/2.7cf97c07.chunk.js.LICENSE": "/static/js/2.7cf97c07.chunk.js.LICENSE",
+    "static/media/Header.css": "/static/media/151105_acidrainrecovery1-w1280.d65ac4d7.jpg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/Result.css": "/static/media/forest.e20506e8.jpg",
+    "static/media/ondanka.jpg": "/static/media/ondanka.53502719.jpg",
+    "static/media/poverty.jpg": "/static/media/poverty.e3f486a3.jpg",
+    "static/media/sabakuka.jpg": "/static/media/sabakuka.2958a768.jpg",
+    "static/media/sanseiu.jpg": "/static/media/sanseiu.e612bfae.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/Teian.css": "/static/media/teian.92533532.jpg",
+    "static/media/顔写真.JPG": "/static/media/顔写真.ef90f956.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e220e16.js",
+    "static/css/2.680ee171.chunk.css",
+    "static/js/2.7cf97c07.chunk.js",
+    "static/css/main.e0bd37f1.chunk.css",
+    "static/js/main.4c14bafc.chunk.js"
+  ]
+}
