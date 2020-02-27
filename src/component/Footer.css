@@ -28,5 +28,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
+@media screen and (max-width:479px){
+    .last{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .last1{
+        font-size: 13px;
+    }
+}
+
 
  

@@ -10,7 +10,7 @@ import sanseiu from './sanseiu.jpg'
 
 export default class Intro extends Component {
     constructor(props) {
-        super(props)
+        super(props);
     };
 
     componentDidMount = () => {
@@ -68,12 +68,12 @@ export default class Intro extends Component {
         return (
             <div className="intro">
                 <h1 className="midasi" >あなたは環境について考えたことありますか？</h1>
+                <h1 className="midasi-mb">環境問題を考える。</h1>
                 <div className="content">
                     <div className="poverty" id='poverty' ref='box1'>
                         <p>貧困</p>
                         <img className="poverty-img" src={poverty} />
                         <p>2015年で苦しむ人は7億人弱になります。</p>
-                        <p>詳しくは画像クリック。</p>
                     </div>
 
 
@@ -81,7 +81,6 @@ export default class Intro extends Component {
                         <p>温暖化</p>
                         <img className="ondanka-img" src={ondanka} />
                         <p>あと20年後には氷がなくなると言われています。</p>
-                        <p>詳しくは画像クリック。</p>
                     </div>
 
 
@@ -89,20 +88,21 @@ export default class Intro extends Component {
                         <p>砂漠化</p>
                         <img className="sabakuka-img" src={sabakuka} />
                         <p>毎年264万haが砂漠化しています。</p>
-                        <p>詳しくは画像クリック。</p>
+
                     </div>
 
                     <div className="sanseiu" id='sanseiu' ref='box4'> 
                         <p>酸性雨</p>
                         <img className="sanseiu-img" src={sanseiu} />
                         <p> 酸性雨は人体被害や森林破壊を引き起こします。</p>
-                        <p>詳しくは画像クリック。</p>
+                        
                     </div>
 
 
                 </div>
 
                 <p className='teigi' ref='box5'>これらは世界で起こっている問題のほんの<span>一部</span>に過ぎないのです。</p>
+                <p className="teigi2" ref="box5">これらは環境問題の<span>一部</span>に過ぎないのです。</p>
             </div>
 
 

@@ -1,16 +1,17 @@
-.result{
-    background-image: url(./forest.jpg);
-    background-attachment: fixed;
-    height: 610px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky;
-    top: 0;
+.result {
+  background-image: url(./forest.jpg);
+  background-attachment: fixed;
+  height: 610px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  top: 0;
 }
 
-.result::before{
-    /* 透過した黒を上から重ねるイメージ */
-  background-color: rgba(0,0,0,0.4);
+.result::before {
+  /* 透過した黒を上から重ねるイメージ */
+  background-color: rgba(0, 0, 0, 0.4);
   /* 自由に位置指定 */
   position: absolute;
   top: 0;
@@ -20,32 +21,43 @@
   content: ' ';
 }
 
-.saku{
+.saku {
   position: absolute;
   top: 50%;
   left: 30%;
   color: white;
   font-family: monospace;
- 
-  
 }
 
-#awe{
+.saku2 {
+  display: none;
+}
+
+#awe {
   color: white;
 }
 
-.ks{
+.ks {
   opacity: 0;
 }
 
-@media screen and (max-width: 479px){
-  .saku{
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  color: white;
-  font-family: monospace;
-  font-size: 15px;
-  } 
+@media screen and (max-width: 479px) {
+  .saku {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    display: none;
+  }
+  .saku2 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: white;
+    font-family: monospace;
+    font-size: 21px;
+  }
 }
-

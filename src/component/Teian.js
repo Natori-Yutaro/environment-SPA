@@ -21,7 +21,7 @@ export default class Teian extends Component{
         };
         return (
             <div className="teian">
-                <h1 className="midasi">私たちにもできること</h1>
+                <h1 className="midasi3">私たちにもできること</h1>
 
                 <Slider {...setting}>
                     <div>
@@ -47,7 +47,6 @@ export default class Teian extends Component{
                     <div>
                         <h3>水を大切に使おう！</h3>
                         <p className="sentence">何かと使うことの多い水を無駄にはしていませんか？</p>
-                        <p className="sentence">歯を磨くときには水を出しっぱなしにはしない！</p>
                         <p className="sentence">お風呂の水は洗濯や打ち水に利用することでとても大きなエコ活動になります。</p>
                     </div>
                     <div>

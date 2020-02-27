@@ -1,42 +1,71 @@
-                .teian {
-                    height: 610px;
-                    background-color: black;
-                    position: relative;
-                }
-                
-                h3{
-                    color: white;
-                    font-family: monospace;
-                    margin-left: 20px;
-                    font-size: 35px;
-                }
-                
-                .slick-slider {
-                    height: 350px;
-                    margin: 0 auto;
-                    margin-top: 120px;
-                    width: 85%;
-                background-image: url(teian.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                }
-                
-                .slick-slider::before{
-                    background-color: rgba(0,0,0,0.6);
-  /* 自由に位置指定 */
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: ' ';
-                }
+.teian {
+    height: 610px;
+    background-color: black;
+    position: relative;
+}
 
-                .slick-track {
-                    height: 350px;
-                }
+.midasi3{
+    color: white;
+    font-family: monospace;
+    margin:0;
+    padding-top: 20px;
+    padding-left: 20px;
 
-                .sentence{
-                    font-size: 25px;
-                    margin-top: 45px;
-                }
+}
+
+h3 {
+    color: white;
+    font-family: monospace;
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+.slick-slider {
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 85%;
+    background-image: url(teian.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slick-slider::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* 自由に位置指定 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+.slick-track {
+    height: 350px;
+}
+
+.sentence {
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+@media screen and (min-width:934px){
+    .midasi2{
+        left: 5%;
+    }
+}
+
+@media screen and (max-width:479px){
+    .midasi2{
+        width: 100%;
+    }
+    
+    h3{
+        font-size: 25px;
+    }
+
+    .sentence{
+        font-size: 20px;
+    }
+}

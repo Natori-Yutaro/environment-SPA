@@ -17,6 +17,6 @@ export default class Footer extends Component{
                 <p className="last">Change the environment　</p>
                 <p className="last1">presented by yutaro natori</p>
             </div>
-        )
+        );
     }
 }
