@@ -14,7 +14,16 @@ export default class Result extends Component {
             easing: 'ease'
         };
 
+        const saku2 = {
+            duration: 1000,
+            delay: 500,
+            distance: '20px',
+            scale: 1,
+            easing: 'ease'
+        };
+
         ScrollReveal().reveal(this.refs.k1, saku);
+        ScrollReveal().reveal(this.refs.k2, saku2);
 
         window.addEventListener('scroll', () => {
             console.log(window.pageYOffset);
@@ -34,7 +43,7 @@ export default class Result extends Component {
         return (
             <div className="result">
                 <h1 id='saku' className='saku' ref='k1'>私たちにできることは何があるのだろう？</h1>
-                <h1 id="saku" className="saku2"　ref="k1">私たちにできることは？</h1>
+                <h1 id="saku" className="saku2" ref="k2">私たちにできることは？</h1>
                 <i id='awe' className="fa fa-angle-double-down" aria-hidden="true"></i>
 
             </div>

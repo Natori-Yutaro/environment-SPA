@@ -19,7 +19,7 @@ export default class Intro extends Component {
             delay: 500,
             distance: '20px',
             scale: 1,
-            easing:'ease'
+            easing: 'ease'
         };
 
         const ondanka = {
@@ -27,7 +27,7 @@ export default class Intro extends Component {
             delay: 650,
             distance: '20px',
             scale: 1,
-            easing:'ease'
+            easing: 'ease'
         }
 
         const sabakuka = {
@@ -54,15 +54,25 @@ export default class Intro extends Component {
             easing: 'ease'
         }
 
+        const teigi2 = {
+            duration: 1000,
+            delay: 1100,
+            distance: '20px',
+            scale: 1,
+            easing: 'ease'
+        }
+
+
 
         ScrollReveal().reveal(this.refs.box1, poverty)
         ScrollReveal().reveal(this.refs.box2, ondanka)
         ScrollReveal().reveal(this.refs.box3, sabakuka)
         ScrollReveal().reveal(this.refs.box4, sanseiu)
         ScrollReveal().reveal(this.refs.box5, teigi)
+        ScrollReveal().reveal(this.refs.box6, teigi2)
     }
 
-   
+
 
     render() {
         return (
@@ -91,18 +101,18 @@ export default class Intro extends Component {
 
                     </div>
 
-                    <div className="sanseiu" id='sanseiu' ref='box4'> 
+                    <div className="sanseiu" id='sanseiu' ref='box4'>
                         <p>酸性雨</p>
                         <img className="sanseiu-img" src={sanseiu} />
                         <p> 酸性雨は人体被害や森林破壊を引き起こします。</p>
-                        
+
                     </div>
 
 
                 </div>
 
                 <p className='teigi' ref='box5'>これらは世界で起こっている問題のほんの<span>一部</span>に過ぎないのです。</p>
-                <p className="teigi2" ref="box5">これらは環境問題の<span>一部</span>に過ぎないのです。</p>
+                <p className="teigi2" ref='box6'>これらは環境問題の<span>一部</span>に過ぎないのです。</p>
             </div>
 
 
